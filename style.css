@@ -10,6 +10,11 @@
     border: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    transition: all 100ms ease 30ms;
+    -webkit-transition: all 100ms ease 30ms;
+    -moz-transition: all 100ms ease 30ms;
+    -ms-transition: all 100ms ease 30ms;
+    -o-transition: all 100ms ease 30ms;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
